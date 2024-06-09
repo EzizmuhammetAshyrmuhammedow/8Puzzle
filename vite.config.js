@@ -6,7 +6,6 @@ import VueDevTools from "vite-plugin-vue-devtools";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/8Puzzle/",
   plugins: [vue(), VueDevTools()],
   server: {
     host: true,
